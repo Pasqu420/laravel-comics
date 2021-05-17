@@ -3,7 +3,7 @@
         <a href="#">
             <span>DC POWER<span>sm</span>VISA</span>
         </a>
-        <p>ADDITIONAL DC SITES</p>
+        <p>ADDITIONAL DC SITES <i class="fas fa-caret-down"></i></p>
     </div>
     <div class="bottom">
         <div class="logo">
@@ -18,7 +18,7 @@
             <li>VIDEOS</li>
             <li>FUN</li>
             <li>NEWS</li>
-            <li>SHOP</li>
+            <li>SHOP <i class="fas fa-caret-down"></i></li>
         </ul>
         <input type="text" placeholder="Search">
     </div>

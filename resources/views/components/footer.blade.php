@@ -39,10 +39,13 @@
                 <li> <a href="#">Shop DC Collections</a> </li>
             </ul>
         </div>
-         <p class="privacy">
-             All Site Content TM and &#169;2020 DC Entertainment, uless otherwise <a href="#">noted here</a>,
-             All rights reserved. <a href="#">Cookie Settings</a>
-         </p>
+        <p class="privacy">
+            All Site Content TM and &#169;2020 DC Entertainment, uless otherwise <a href="#">noted here</a>,
+            All rights reserved. <a href="#">Cookie Settings</a>
+        </p>
+        <div class="dc-logo-bg">
+            <img src="{{asset('/storage/assets/dc-logo-bg.png')}}" alt="">
+        </div>
     </div>
     <div class="bottomFooter">
         <button>SIGN-UP NOW!</button>

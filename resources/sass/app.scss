@@ -17,12 +17,17 @@ header{
         height: 25px;
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         background-color: #0282f9;
         *{
             color: #ffff;
         }
         p{
             margin: 0 20px;
+            i{
+                font-size: 14px;
+                color: #ffffl;
+            }
         }
     }
     .bottom{
@@ -39,11 +44,18 @@ header{
             flex-grow: 1;
             li{
                 margin: 0 30px;
+                i{
+                    font-size: 14px;
+                    color:#0282f9;
+                }
             }
         }
         input{
             height: 20px;
             margin-right: 150px;
+            text-align: right;
+            border: none;
+            border-bottom: 2px solid #0282f9;
         }
     }
     .jumbotron{
@@ -134,6 +146,7 @@ footer{
     .containerFooter{
         width: 1200px;
         margin: auto;
+        position: relative;
         .linkFooter{
             width: 550px;
             padding-top: 50px;
@@ -157,6 +170,16 @@ footer{
                 top: -75px;
             }
         }
+        .dc-logo-bg{
+            width: 600px;
+            position: absolute;
+            top: -60px;
+            right: -100px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
         .privacy{
             width: 650px;
             color: #7c896c;
@@ -173,6 +196,8 @@ footer{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        position: relative;
+        z-index: 2;
         button{
             width: 130px;
             height: 50px;

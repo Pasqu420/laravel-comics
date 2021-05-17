@@ -22,6 +22,7 @@ header .top {
   height: 25px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   background-color: #0282f9;
 }
 
@@ -31,6 +32,11 @@ header .top * {
 
 header .top p {
   margin: 0 20px;
+}
+
+header .top p i {
+  font-size: 14px;
+  color: #ffffl;
 }
 
 header .bottom {
@@ -54,9 +60,17 @@ header .bottom ul li {
   margin: 0 30px;
 }
 
+header .bottom ul li i {
+  font-size: 14px;
+  color: #0282f9;
+}
+
 header .bottom input {
   height: 20px;
   margin-right: 150px;
+  text-align: right;
+  border: none;
+  border-bottom: 2px solid #0282f9;
 }
 
 header .jumbotron {
@@ -153,6 +167,7 @@ footer {
 footer .containerFooter {
   width: 1200px;
   margin: auto;
+  position: relative;
 }
 
 footer .containerFooter .linkFooter {
@@ -181,6 +196,18 @@ footer .containerFooter .linkFooter .shop {
   top: -75px;
 }
 
+footer .containerFooter .dc-logo-bg {
+  width: 600px;
+  position: absolute;
+  top: -60px;
+  right: -100px;
+}
+
+footer .containerFooter .dc-logo-bg img {
+  width: 100%;
+  height: auto;
+}
+
 footer .containerFooter .privacy {
   width: 650px;
   color: #7c896c;
@@ -198,6 +225,8 @@ footer .bottomFooter {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 footer .bottomFooter button {
