@@ -15,6 +15,9 @@ header{
         *{
             color: #ffff;
         }
+        p{
+            margin: 0 20px;
+        }
     }
     .bottom{
         height: 120px;
@@ -47,51 +50,80 @@ header{
 }
 main{
     background-color: #1c1c1c;
-    .currentS{
-        width: 200px;
-        height: 50px;
-        background-color: #0282f9;
-        color: #ffff;
-        font-weight: bold;
-        position: relative;
-        top: -25px;
-        left: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .series{
-        .containerSeries{
-            width: 1270px;
-            margin: auto;
+    color: #ffff;
+    .cardComics{
+        .currentS{
+            width: 200px;
+            height: 50px;
+            background-color: #0282f9;
+            color: #ffff;
+            font-weight: bold;
+            position: relative;
+            top: -25px;
+            left: 330px;
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            .card{
-                width: 180px;
-                height: auto;
-                margin: 15px;
-                .thumb{
-                    img{
-                        width: 100%;
-                        height: auto;
+            align-items: center;
+            justify-content: center;
+        }
+        .series{
+            .containerSeries{
+                width: 1270px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .card{
+                    width: 180px;
+                    height: auto;
+                    margin: 15px;
+                    .thumb{
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
                     }
                 }
             }
         }
+        .more{
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            button{
+                width: 150px;
+                height: 50px;
+                background-color: #0282f9;
+                color: #ffff;
+                font-weight: bold;
+                border: none;
+            }
+        }
     }
-    .more{
+    .info{
         width: 100%;
-        height: auto;
+        height: 150px;
+        background-color: #0282f9;
         margin-top: 30px;
         display: flex;
         justify-content: center;
-        button{
-            width: 150px;
-            height: 50px;
-            background-color: #0282f9;
-            color: #ffff;
-            border: none;
+        align-items: center;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 40px;
+            img{
+                width: 50px;
+                height: auto;
+                margin-right: 10px;
+            }
         }
     }
+}
+footer{
+    background-image: url(/storage/assets/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
