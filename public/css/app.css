@@ -55,3 +55,56 @@ header .jumbotron {
   background-position: top center;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+
+main .currentS {
+  width: 200px;
+  height: 50px;
+  background-color: #0282f9;
+  color: #ffff;
+  font-weight: bold;
+  position: relative;
+  top: -25px;
+  left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .series .containerSeries {
+  width: 1270px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main .series .containerSeries .card {
+  width: 180px;
+  height: auto;
+  margin: 15px;
+}
+
+main .series .containerSeries .card .thumb img {
+  width: 100%;
+  height: auto;
+}
+
+main .more {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+main .more button {
+  width: 150px;
+  height: 50px;
+  background-color: #0282f9;
+  color: #ffff;
+  border: none;
+}
+
