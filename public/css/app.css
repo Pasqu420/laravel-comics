@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100%;
   background-color: white;
@@ -36,7 +44,6 @@ header .bottom .logo {
 }
 
 header .bottom ul {
-  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,5 +148,79 @@ footer {
   background-image: url(/storage/assets/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+footer .containerFooter {
+  width: 1200px;
+  margin: auto;
+}
+
+footer .containerFooter .linkFooter {
+  width: 550px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .containerFooter .linkFooter ul {
+  margin-right: 50px;
+  line-height: 1.5;
+}
+
+footer .containerFooter .linkFooter ul li h2 {
+  color: #ffff;
+  margin-bottom: 10px;
+}
+
+footer .containerFooter .linkFooter ul li a {
+  color: #7c896c;
+}
+
+footer .containerFooter .linkFooter .shop {
+  position: relative;
+  top: -75px;
+}
+
+footer .containerFooter .privacy {
+  width: 650px;
+  color: #7c896c;
+  position: relative;
+  bottom: 50px;
+}
+
+footer .containerFooter .privacy a {
+  color: #0282f9;
+}
+
+footer .bottomFooter {
+  height: 100px;
+  background-color: #464444;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .bottomFooter button {
+  width: 130px;
+  height: 50px;
+  border: 2px solid #0282f9;
+  background-color: transparent;
+  color: #ffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .bottomFooter ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .bottomFooter ul li {
+  margin-right: 15px;
+}
+
+footer .bottomFooter ul li h2 {
+  color: #0282f9;
 }
 

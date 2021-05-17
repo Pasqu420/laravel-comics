@@ -39,5 +39,20 @@
                 <li> <a href="#">Shop DC Collections</a> </li>
             </ul>
         </div>
+         <p class="privacy">
+             All Site Content TM and &#169;2020 DC Entertainment, uless otherwise <a href="#">noted here</a>,
+             All rights reserved. <a href="#">Cookie Settings</a>
+         </p>
+    </div>
+    <div class="bottomFooter">
+        <button>SIGN-UP NOW!</button>
+        <ul>
+            <li><h2>FOLLOW US</h2></li>
+            <li><img src="/storage/assets/footer-facebook.png" alt=""></li>
+            <li><img src="/storage/assets/footer-twitter.png" alt=""></li>
+            <li><img src="/storage/assets/footer-youtube.png" alt=""></li>
+            <li><img src="/storage/assets/footer-pinterest.png" alt=""></li>
+            <li><img src="/storage/assets/footer-periscope.png" alt=""></li>
+        </ul>
     </div>
 </footer>

@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 header{
     width: 100%;
     background-color: white;
@@ -27,7 +33,6 @@ header{
             margin-left: 150px;
         }
         ul{
-            list-style: none;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -126,4 +131,67 @@ footer{
     background-image: url(/storage/assets/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    .containerFooter{
+        width: 1200px;
+        margin: auto;
+        .linkFooter{
+            width: 550px;
+            padding-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            ul{
+                margin-right: 50px;
+                line-height: 1.5;
+                li{
+                    h2{
+                        color:#ffff;
+                        margin-bottom: 10px;
+                    }
+                    a{
+                        color: #7c896c;
+                    }
+                }
+            }
+            .shop{
+                position: relative;
+                top: -75px;
+            }
+        }
+        .privacy{
+            width: 650px;
+            color: #7c896c;
+            position: relative;
+            bottom: 50px;
+            a{
+                color: #0282f9;
+            }
+        }
+    }
+    .bottomFooter{
+        height: 100px;
+        background-color: rgb(70, 68, 68);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        button{
+            width: 130px;
+            height: 50px;
+            border: 2px solid #0282f9;
+            background-color: transparent;
+            color: #ffff;
+            text-align: center;
+            font-weight: bold;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                margin-right: 15px;
+                h2{
+                    color:#0282f9;
+                }
+            }
+        }
+    }
 }
