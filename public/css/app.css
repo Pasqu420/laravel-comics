@@ -246,6 +246,145 @@ header .jumbotron {
   color: #7c896c;
 }
 
+.mainCard .details {
+  background-color: lightgrey;
+  border-top: 1px solid grey;
+}
+
+.mainCard .details .containerDetails {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.mainCard .details .containerDetails h2 {
+  margin-bottom: 30px;
+  color: #003f5e;
+}
+
+.mainCard .details .containerDetails .talent {
+  width: 48%;
+}
+
+.mainCard .details .containerDetails .talent ul {
+  width: 100%;
+}
+
+.mainCard .details .containerDetails .talent ul li:first-child {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.mainCard .details .containerDetails .talent ul li {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid grey;
+}
+
+.mainCard .details .containerDetails .talent ul li .by {
+  font-size: 16px;
+  color: #0282f9;
+}
+
+.mainCard .details .containerDetails .talent ul li p {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.3;
+  color: #00b0e1;
+}
+
+.mainCard .details .containerDetails .talent ul li p span {
+  margin: 0 3px;
+}
+
+.mainCard .details .containerDetails .talent ul li p span:last-child {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.mainCard .details .containerDetails .specs {
+  width: 48%;
+}
+
+.mainCard .details .containerDetails .specs ul {
+  width: 100%;
+}
+
+.mainCard .details .containerDetails .specs ul li:first-child,
+.mainCard .details .containerDetails .specs ul li:last-child {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.mainCard .details .containerDetails .specs ul li {
+  width: 100%;
+  height: calc(200px / 3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainCard .details .containerDetails .specs ul li .by {
+  font-size: 16px;
+  color: #0282f9;
+}
+
+.mainCard .details .containerDetails .specs ul li .specsSeries,
+.mainCard .details .containerDetails .specs ul li .specsPrice,
+.mainCard .details .containerDetails .specs ul li .specsSale {
+  width: 70%;
+}
+
+.mainCard .details .containerDetails .specs ul li .specsSeries {
+  font-size: 22px;
+  color: #00b0e1;
+}
+
+.mainCard .info {
+  width: 100%;
+  height: 80px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid grey;
+}
+
+.mainCard .info div {
+  width: calc(50% / 4);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  border-left: 1px solid grey;
+}
+
+.mainCard .info div p {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  align-self: flex-start;
+  margin: 10px;
+}
+
+.mainCard .info div img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.mainCard .info div:last-child {
+  border-right: 1px solid grey;
+}
+
 footer {
   background-image: url(/storage/assets/footer-bg.jpg);
   background-repeat: no-repeat;
