@@ -221,7 +221,6 @@ class TestController extends Controller
                 ],
             ],
         ];
-
         return view('pages.homePage',compact('data'));
     }
     public function viewCard($ind)

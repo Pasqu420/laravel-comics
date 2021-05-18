@@ -13,7 +13,7 @@
                                 <div class="thumb">
                                     <img src="{{$item['thumb']}}" alt="">
                                 </div>
-                                <h3>{{$item['title']}}</h3>
+                                <h3>{{$item['series']}}</h3>
                             </div>
                         </a>
                     @endforeach

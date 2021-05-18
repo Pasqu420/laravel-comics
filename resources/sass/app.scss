@@ -228,6 +228,7 @@ header{
             display: flex;
             justify-content: space-between;
             padding-bottom: 80px;
+            padding-top: 30px;
             h2{
                 margin-bottom: 30px;
                 color: #003f5e;
@@ -310,6 +311,8 @@ header{
         justify-content: center;
         align-items: center;
         border-top: 1px solid grey;
+        position: relative;
+        z-index: 1;
         div{
             width: calc(50% / 4);
             height: 100%;

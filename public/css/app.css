@@ -257,6 +257,7 @@ header .jumbotron {
   display: flex;
   justify-content: space-between;
   padding-bottom: 80px;
+  padding-top: 30px;
 }
 
 .mainCard .details .containerDetails h2 {
@@ -355,6 +356,8 @@ header .jumbotron {
   justify-content: center;
   align-items: center;
   border-top: 1px solid grey;
+  position: relative;
+  z-index: 1;
 }
 
 .mainCard .info div {
