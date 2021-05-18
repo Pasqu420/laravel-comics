@@ -1,19 +1,21 @@
 @extends('layouts.main')
 @section('content')
-    <main>
+    <main class="mainCards">
         <section class="cardComics">
             <div class="currentS">
                 <p>CURRENT SERIES</p>
             </div>
-            <div class="series">
-                <div class="containerSeries">
+            <div class="containerSeries">
+                <div class="series">
                     @foreach ($data as $item)
-                        <div class="card">
-                            <div class="thumb">
-                                <img src="{{$item['thumb']}}" alt="">
+                        <a href=" {{route('box',$loop->index)}} ">
+                            <div class="card">
+                                <div class="thumb">
+                                    <img src="{{$item['thumb']}}" alt="">
+                                </div>
+                                <h3>{{$item['title']}}</h3>
                             </div>
-                            <h3>{{$item['title']}}</h3>
-                        </div>
+                        </a>
                     @endforeach
                 </div>
             </div>
