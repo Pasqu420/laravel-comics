@@ -241,6 +241,8 @@ header .jumbotron {
 
 .mainCard .contentCard .container .infoCard .desc {
   width: 770px;
+  font-size: 18px;
+  line-height: 1.5;
   color: #7c896c;
 }
 
